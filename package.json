@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-11",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://github.com/AlexandruMoldoveanu95/goit-js-hw-11",
@@ -12,19 +12,21 @@
     "url": "git+https://github.com/AlexandruMoldoveanu95/goit-js-hw-11"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Moldovanu Alexandru <moldovanualexandru94@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "lodash": "^4.17.21",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
-    "slim-select": "^2.5.0"
+    "simplelightbox": "^2.14.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"

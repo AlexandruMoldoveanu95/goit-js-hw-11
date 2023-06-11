@@ -4,21 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
+    <title>Homework 11</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="catFinder-container">
-      <a href="./cat-page.html" class="go-to-catFinder"
-        >Go to Cat Finder Page</a
-      >
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+    <div class="select-scrolling-mode">
+      <h4 class="select-scrolling">
+        If you want infinite scrolling just click the button
+      </h4>
+      <button type="button" class="select-scrolling-btn">
+        <i class="fa-solid fa-rocket-launch"></i>Click me...
+      </button>
     </div>
+    <div class="gallery"></div>
+    <article class="loading hidden">
+      <img src="./loading.gif" alt="loading" />
+    </article>
+    <button type="button" class="load-more hidden">Load more...</button>
 
-    <input type="text" id="search-box" />
-    <ul class="country-list">
-      <li></li>
-    </ul>
-    <div class="country-info"></div>
-
-    <script src="index.js" type="module"></script>
+    <script src="./indexJs.js" type="module"></script>
   </body>
 </html>
